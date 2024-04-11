@@ -8,3 +8,5 @@ It also has sound effects to make stopwatch more fun to use.
 **Steps to use:**
 1. Download the code package to your system.
 2. Open _index.html_ file using browser of your choice.
+3. Alternatively, use the following link to access the application:
+   https://sathyendrahr.github.io/Stopwatch-Project/
