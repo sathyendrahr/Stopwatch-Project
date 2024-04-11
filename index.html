@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <h1>Stopwatch App</h1>
+    <div id="stopwatch">
+        <img src="resources/images/watch-background.jpeg" value="Timer">
+        <h3 id="timer"></h3>
+    </div>
+    <div id="buttons">
+        <button class="btn" id="start-timer">Start</button>
+        <button class="btn" id="stop-timer">Stop</button>
+        <button class="btn" id="reset-timer">Reset</button>
+    </div>
+
+    <audio id="timer-sound" loop>
+        <source src="resources/audio/timer.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="reset-sound" loop>
+        <source src="resources/audio/reset.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
